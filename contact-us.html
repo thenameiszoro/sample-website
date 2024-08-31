@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact-us</title>
+    <link rel="stylesheet" href="./styles/contact-us.css" />
+    <link rel="stylesheet" href="./styles/common.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="./js/index.js"></script>
+  </head>
+  <body style="margin: 0">
+    <header>
+      <button aria-label="Toggle navigation" onclick="myFunction()">
+        <i class="ph-bold ph-list" style="font-size: 1.25rem;"></i>
+      </button>
+    </header>
+    <nav class="mobile-header" id="myLinks">
+      <a href="index.html">Home</a>
+      <a href="contact-us.html">Contact Us</a>
+      <a href="blog.html">blog</a>
+      <a href="about.html">About</a>
+    </nav>
+    <nav class="desktop-header">
+      <a href="index.html">Home</a>
+      <a href="contact-us.html">Contact Us</a>
+      <a href="blog.html">blog</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="image-div">
+      <div class="sub-image-div1">
+        <div style="width: fit-content">
+          <h1>Contact Us</h1>
+          <p class="contact-us-description">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable. If you are going to use a passage of Lorem Ipsum
+          </p>
+        </div>
+      </div>
+      <div class="sub-image-div2">
+        <h1>Get in touch</h1>
+        <div class="form-div">
+          <label for="name">Name</label>
+          <input
+            id="name"
+            type="text"
+            class="input-box"
+            placeholder="enter your name"
+          />
+          <label style="margin-top: 0.5rem" for="tel">blog</label>
+          <input
+            id="tel"
+            type="tel"
+            class="input-box"
+            placeholder="enter your blog"
+          />
+          <label style="margin-top: 0.5rem" for="email">email</label>
+          <input
+            id="email"
+            type="email"
+            class="input-box"
+            placeholder="enter your email"
+          />
+          <button class="button">submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
